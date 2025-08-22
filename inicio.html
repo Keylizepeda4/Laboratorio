@@ -81,7 +81,7 @@
 
   <section class="login-section">
     <h2>Guarda tu Información</h2>
-    <form action="https://formspree.io/f/xanbreav" method="POST" class="login-form">
+    <form action="https://formspree.io/f/mzzvlwoy" method="POST" class="login-form">
       
       <div>
         <label for="nombre">Nombre:</label>
@@ -107,7 +107,28 @@
         </div>
       </div>
 
-      
+      <div>
+        <label>Edad / Descuentos:</label>
+        <table class="radio-table">
+          <tr>
+            <td><input type="radio" name="edad_descuento" value="<18 Descuento 10"></td>
+            <td>&lt; 18 → Descuento 10%</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="edad_descuento" value="=18 Descuento 9"></td>
+            <td>= 18 → Descuento 9%</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="edad_descuento" value="<40 Descuento 10"></td>
+            <td>&lt; 40 → Descuento 10%</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="edad_descuento" value=">50 Descuento 25"></td>
+            <td>&gt; 50 → Descuento 25%</td>
+          </tr>
+        </table>
+      </div>
+
       <div>
         <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
         <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
@@ -117,10 +138,6 @@
         <label for="otros">Otros:</label>
         <textarea id="otros" name="otros" rows="3"></textarea>
       </div>
-
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
 
     <footer class="main-footer">
     <p>&copy; 2025 Italian Deluxe Todos los derechos reservados.</p>
